@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/associate-gce-exam-prep/sw.js', { scope: '/associate-gce-exam-prep/' })})}
